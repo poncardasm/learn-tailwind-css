@@ -10,7 +10,9 @@
 
   <body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
     <header class="sticky top-0 z-10 bg-teal-700 text-white">
-      <section class="mx-auto flex max-w-4xl items-center justify-between p-4">
+      <section
+        class="mx-auto mb-16 flex max-w-5xl items-center justify-between p-4"
+      >
         <h1 class="text-3xl font-medium">
           <a href="#hero">🚀 Acme Rockets</a>
         </h1>
@@ -29,5 +31,80 @@
         </div>
       </section>
     </header>
+    <main class="mx-auto max-w-5xl">
+      <section
+        id="hero"
+        class="mb-12 flex flex-col-reverse items-center justify-center gap-24 p-4 md:flex-row"
+      >
+        <article class="md:w-1/2">
+          <h2
+            class="max-w-lg text-center text-4xl font-semibold text-slate-900 md:text-left md:text-5xl dark:text-white"
+          >
+            We Boldly Go
+            <span class="text-indigo-700 dark:text-indigo-300">
+              Where No Rocket
+            </span>
+            Has Gone Before...
+          </h2>
+          <p
+            class="mt-4 max-w-md text-center text-2xl text-slate-700 md:text-left dark:text-slate-400"
+          >
+            We're building rockets for the next century today. From the moon to
+            Mars, Jupiter and beyond.
+          </p>
+
+          <p
+            class="mt-4 max-w-md text-center text-2xl text-slate-700 md:text-left dark:text-slate-400"
+          >
+            Think Acme Rockets.
+          </p>
+        </article>
+
+        <img
+          src="../img/rocketdab.png"
+          alt="Rocket Dab"
+          srcset=""
+          class="sm:w-1/2"
+        />
+      </section>
+
+      <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
+
+      <section id="rockets" class="my-12 p-4">
+        <h2
+          class="mb-6 text-center text-4xl font-bold text-slate-900 md:text-5xl dark:text-white"
+        >
+          Our Rockets
+        </h2>
+
+        <ul
+          class="mx-auto my-12 flex list-none flex-col items-center gap-8 md:flex-row"
+        >
+          <li
+            class="border-solid-slate-900 flex w-2/3 flex-col items-center rounded-3xl border border-solid bg-white px-2 py-6 shadow-xl sm:w-5/6 dark:border-gray-100"
+          ></li>
+        </ul>
+      </section>
+
+      <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
+
+      <section id="testimonials" class="my-12 p-4">
+        <h2
+          class="mb-6 text-center text-4xl font-bold text-slate-900 md:text-5xl dark:text-white"
+        >
+          Testimonials
+        </h2>
+      </section>
+
+      <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
+
+      <section id="contact" class="my-12 p-4">
+        <h2
+          class="mb-6 text-center text-4xl font-bold text-slate-900 md:text-5xl dark:text-white"
+        >
+          Contact Us
+        </h2>
+      </section>
+    </main>
   </body>
 </html>
