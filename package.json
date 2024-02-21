@@ -3,5 +3,8 @@
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.4.1"
+  },
+  "scripts": {
+    "build": "npx tailwindcss -i ./tutorials/dave-gray-yt/css/input.css -o ./tutorials/dave-gray-yt/css/02_build-website.css --watch"
   }
 }
